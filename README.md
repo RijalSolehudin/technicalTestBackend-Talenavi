@@ -24,16 +24,18 @@
  - GET `/api/todos`     
  - POST `/api/todos` 
 
- ## Export semua data kedalam bentuk .xlsx (excel Report)
+ ## Export semua data kedalam bentuk file .xlsx (excel Report)
  - GET `/api/todos/export`      
 
  ## Export data kedalam bentuk .xlsx (excel report) berdasarkan filter
  - GET `/api/todos/export?filter=value|[value]`  
 
     contoh : http://localhost:800/api/todos/export?assignee=Panjul,Rahma
-    
+
  ## generate Data Chart berdasarkan type
- - GET `/api/chart?type=status|priority|assignee` 
+ - GET `/api/todos/chart?type=status|priority|assignee` 
+    
+     contoh : http://localhost:800/api/todos/chart?type=priority
 
 ## Author
 Rijal Solehudin

@@ -10,8 +10,8 @@ class TodoSeeder extends Seeder
 {
     public function run(): void
     {
-        $assignees = ['Alice', 'Bob', 'Charlie', 'David'];
-        $statuses = ['pending', 'in_progress', 'completed'];
+        $assignees = ['Kunto', 'Aji', 'David', 'Beckham'];
+        $statuses = ['pending','open', 'in-progress', 'completed'];
         $priorities = ['low', 'medium', 'high'];
 
         foreach (range(1, 20) as $i) {
