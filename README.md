@@ -37,5 +37,7 @@
     
      contoh : http://localhost:800/api/todos/chart?type=priority
 
+ ## Contoh Pemakaian lengkap ada di folder postman_collection
+ 
 ## Author
 Rijal Solehudin
